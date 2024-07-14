@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Beshoy William" />
+    <title>Yummy</title>
+    <!-- *=================> Favicon <=================& -->
+    <link rel="shortcut icon" href="./icons/img1.png" type="image/x-icon" />
+    <!-- *=================> FontAwesome Links <=================& -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- *=================> Bootstrap Links <=================& -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- *=================> Main Style Links <=================& -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- *=================> Animation Links <=================& -->
+    <link rel="stylesheet" href="css/animation.css" />
+  </head>
+  <body>
+    <!-- &=================> Start Side Navbar Section <=================& -->
+    <aside class="d-flex">
+      <div
+        class="aside-data d-flex flex-column justify-content-between py-3 ps-3"
+      >
+        <ul class="aside-links">
+          <li><a>Search</a></li>
+          <li><a>Categories</a></li>
+          <li><a>Area</a></li>
+          <li><a>Ingredients</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+
+        <div class="copy-right mb-3">
+          <ul class="list-inline mb-0 text-white cp">
+            <li class="list-inline-item">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item">
+               <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+               <a href="#"><i class="fa-sharp fa-solid fa-globe"></i></a>
+            </li>
+          </ul>
+          <p class="text-white">
+            Copy right Â© <span id="date"></span> All Rights Reserved.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="right-icons bg-white vstack align-items-center justify-content-between"
+      >
+        <img src="./icons/img1.png" alt="icons" />
+
+        <i
+          class="fa-solid open-close-icon fa-2x fa-align-justify cp"
+          id="menuIcon"
+        ></i>
+
+        <div class="d-flex flex-column">
+          <i class="fa-solid fa-globe py-2"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div>
+      </div>
+    </aside>
+    <!-- &=================> End Side Navbar Section <=================& -->
+
+    <!-- &=================> Start Page Section <=================& -->
+    <section>
+      <div
+        class="loading z-top position-fixed w-100 h-100 start-0 end-0 bg-dark bg-opacity-75 d-flex align-items-center justify-content-center"
+      >
+        <span class="loader"></span>
+      </div>
+
+      <div
+        class="container w-75 mx-auto text-white py-4 content"
+        id="content"
+      ></div>
+    </section>
+
+    <!-- &=================> JavaScript Links <=================& -->
+    <!-- *=================> JQuery Links <=================& -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <!-- *=================> Bootstrap Bundle Links <=================& -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- *=================> Page Scripts <=================& -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

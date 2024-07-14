@@ -1,0 +1,146 @@
+/* *=================> General Styles <=================* */
+.cp {
+   cursor: pointer !important;
+}
+.lh {
+   line-height: 0 !important;
+}
+.z-top {
+   z-index: 99999 !important;
+}
+ul {
+   list-style: none;
+   color: #fff;
+   padding-left: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+   color: #fff;
+}
+body {
+   background-color: #000;
+   width: 100%;
+   height: 100%;
+}
+
+/* ^=======> Scroll Bar Styles <========^ */
+::-webkit-scrollbar {
+   width: 10px;
+   -webkit-transition: all 500ms;
+   transition: all 500ms;
+   background: #5A5A5A;
+}
+
+::-webkit-scrollbar-thumb {
+   background: #F7F7F7;
+   border: 2px solid #5A5A5A;
+   border-radius: 100vh;
+}
+
+
+
+/* *=================> Aside Navbar Styles <=================* */
+aside {
+   min-height: 100vh;
+   position: fixed;
+   z-index: 9999;
+   left: -240px;
+   top: 0;
+   background-color: #000;
+}
+.aside-data {
+   width: 240px;
+}
+.aside-links {
+   overflow: hidden;
+   height: 320px;
+}
+.aside-links li {
+   padding-top: 500px;
+   cursor: pointer;
+}
+aside .right-icons {
+   padding: 10px;
+}
+aside img {
+   width: 50px;
+}
+
+/* *=================> Content Styles <=================* */
+
+.content .form-control,
+.content .form-control:focus {
+   background-color: transparent;
+   border: unset;
+   border-radius: unset;
+   border-bottom: 1px solid #fff;
+   box-shadow: unset;
+   color: #fff;
+}
+.item {
+   overflow: hidden;
+}
+.layer {
+   top: 200%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+.item:hover .layer {
+   top: 0;
+   transition-duration: 1s;
+}
+
+
+/* *=================> Contact Styles <=================* */
+.form-control,
+.form-control:focus {
+   background-color: black !important;
+   border: 1px solid #fff !important;
+   border-radius: 10px !important;
+   color: #fff;
+}
+
+form .form-control,
+form .form-control:focus {
+   background-color: white !important;
+   color: black !important;
+}
+
+.succes {
+    border-bottom: 1px solid rgb(19, 226, 12) !important;
+}
+.error {
+    border-bottom: 1px solid rgb(236, 47, 13) !important;
+}
+
+/* *=================> Loader Spinner Styles <=================* */
+.loading {
+   overflow: hidden;
+   background-color: black;
+}
+
+.loader {
+   width: 88px;
+   height: 88px;
+   border: 15px dotted #FFF;
+   border-radius: 50%;
+   display: inline-block;
+   position: relative;
+   box-sizing: border-box;
+   animation: rotation 2s linear infinite;
+ }
+ 
+ @keyframes rotation {
+   0% {
+     transform: rotate(0deg);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+ } 
